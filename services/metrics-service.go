@@ -1,8 +1,8 @@
 package services
 
 import (
-	"github.com/oceano-dev/microservices-go-common/config"
-	"github.com/oceano-dev/microservices-go-common/metrics"
+	"github.com/JohnSalazar/microservices-go-common/config"
+	"github.com/JohnSalazar/microservices-go-common/metrics"
 
 	"github.com/prometheus/client_golang/prometheus"
 )

@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/oceano-dev/microservices-go-common/httputil"
+	"github.com/JohnSalazar/microservices-go-common/httputil"
 
 	"github.com/gin-gonic/gin"
 )

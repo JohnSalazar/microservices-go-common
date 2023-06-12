@@ -6,9 +6,9 @@ import (
 	"net/http"
 	"time"
 
+	"github.com/JohnSalazar/microservices-go-common/config"
+	"github.com/JohnSalazar/microservices-go-common/services"
 	"github.com/gin-gonic/gin"
-	"github.com/oceano-dev/microservices-go-common/config"
-	"github.com/oceano-dev/microservices-go-common/services"
 )
 
 type HttpServer interface {

@@ -6,10 +6,10 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/oceano-dev/microservices-go-common/httputil"
-	"github.com/oceano-dev/microservices-go-common/security"
+	"github.com/JohnSalazar/microservices-go-common/httputil"
+	"github.com/JohnSalazar/microservices-go-common/security"
 
-	"github.com/oceano-dev/microservices-go-common/helpers"
+	"github.com/JohnSalazar/microservices-go-common/helpers"
 
 	"github.com/gin-gonic/gin"
 	"github.com/sirupsen/logrus"

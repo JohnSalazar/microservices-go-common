@@ -3,7 +3,7 @@ package security
 import (
 	"crypto/rsa"
 
-	"github.com/oceano-dev/microservices-go-common/models"
+	"github.com/JohnSalazar/microservices-go-common/models"
 )
 
 type ManagerSecurityRSAKeys interface {

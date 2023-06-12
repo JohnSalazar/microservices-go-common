@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	"github.com/oceano-dev/microservices-go-common/config"
-	"github.com/oceano-dev/microservices-go-common/repositories"
+	"github.com/JohnSalazar/microservices-go-common/config"
+	"github.com/JohnSalazar/microservices-go-common/repositories"
 )
 
 type AdminMongoDbService struct {

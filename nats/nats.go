@@ -5,9 +5,9 @@ import (
 	"log"
 	"time"
 
+	"github.com/JohnSalazar/microservices-go-common/config"
+	"github.com/JohnSalazar/microservices-go-common/services"
 	"github.com/nats-io/nats.go"
-	"github.com/oceano-dev/microservices-go-common/config"
-	"github.com/oceano-dev/microservices-go-common/services"
 )
 
 func NewNats(config *config.Config, service services.CertificatesService) (*nats.Conn, error) {

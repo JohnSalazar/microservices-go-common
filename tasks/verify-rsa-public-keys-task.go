@@ -4,8 +4,8 @@ import (
 	"log"
 	"time"
 
-	"github.com/oceano-dev/microservices-go-common/config"
-	"github.com/oceano-dev/microservices-go-common/security"
+	"github.com/JohnSalazar/microservices-go-common/config"
+	"github.com/JohnSalazar/microservices-go-common/security"
 )
 
 type VerifyRSAPublicKeysTask struct {

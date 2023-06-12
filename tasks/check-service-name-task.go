@@ -7,11 +7,11 @@ import (
 	"strconv"
 	"time"
 
+	"github.com/JohnSalazar/microservices-go-common/config"
+	trace "github.com/JohnSalazar/microservices-go-common/trace/otel"
 	consul "github.com/hashicorp/consul/api"
-	"github.com/oceano-dev/microservices-go-common/config"
-	trace "github.com/oceano-dev/microservices-go-common/trace/otel"
 
-	parse "github.com/oceano-dev/microservices-go-common/consul"
+	parse "github.com/JohnSalazar/microservices-go-common/consul"
 )
 
 type checkServiceNameTask struct{}

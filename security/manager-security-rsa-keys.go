@@ -6,9 +6,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/oceano-dev/microservices-go-common/config"
-	"github.com/oceano-dev/microservices-go-common/models"
-	"github.com/oceano-dev/microservices-go-common/services"
+	"github.com/JohnSalazar/microservices-go-common/config"
+	"github.com/JohnSalazar/microservices-go-common/models"
+	"github.com/JohnSalazar/microservices-go-common/services"
 )
 
 type managerSecurityRSAKeys struct {

@@ -11,11 +11,11 @@ import (
 	"net/http"
 	"time"
 
+	"github.com/JohnSalazar/microservices-go-common/config"
+	"github.com/JohnSalazar/microservices-go-common/models"
 	"github.com/eapache/go-resiliency/breaker"
 	"github.com/eapache/go-resiliency/retrier"
 	"github.com/lestrrat-go/jwx/jwk"
-	"github.com/oceano-dev/microservices-go-common/config"
-	"github.com/oceano-dev/microservices-go-common/models"
 )
 
 type SecurityKeysService interface {

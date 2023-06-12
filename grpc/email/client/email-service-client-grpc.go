@@ -6,10 +6,10 @@ import (
 	"log"
 	"time"
 
+	"github.com/JohnSalazar/microservices-go-common/config"
+	"github.com/JohnSalazar/microservices-go-common/services"
+	trace "github.com/JohnSalazar/microservices-go-common/trace/otel"
 	"github.com/go-playground/validator/v10"
-	"github.com/oceano-dev/microservices-go-common/config"
-	"github.com/oceano-dev/microservices-go-common/services"
-	trace "github.com/oceano-dev/microservices-go-common/trace/otel"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 )

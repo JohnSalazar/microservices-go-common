@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/oceano-dev/microservices-go-common/metrics"
-	"github.com/oceano-dev/microservices-go-common/services"
+	"github.com/JohnSalazar/microservices-go-common/metrics"
+	"github.com/JohnSalazar/microservices-go-common/services"
 	"google.golang.org/grpc"
 )
 

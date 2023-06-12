@@ -1,4 +1,4 @@
-module github.com/oceano-dev/microservices-go-common
+module github.com/JohnSalazar/microservices-go-common
 
 go 1.20
 

@@ -4,9 +4,9 @@ import (
 	"errors"
 	"time"
 
-	"github.com/oceano-dev/microservices-go-common/config"
-	"github.com/oceano-dev/microservices-go-common/helpers"
-	"github.com/oceano-dev/microservices-go-common/services"
+	"github.com/JohnSalazar/microservices-go-common/config"
+	"github.com/JohnSalazar/microservices-go-common/helpers"
+	"github.com/JohnSalazar/microservices-go-common/services"
 
 	"github.com/eapache/go-resiliency/breaker"
 )

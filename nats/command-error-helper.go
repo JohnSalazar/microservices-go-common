@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"log"
 
+	"github.com/JohnSalazar/microservices-go-common/config"
+	common_service "github.com/JohnSalazar/microservices-go-common/services"
+	trace "github.com/JohnSalazar/microservices-go-common/trace/otel"
 	"github.com/nats-io/nats.go"
-	"github.com/oceano-dev/microservices-go-common/config"
-	common_service "github.com/oceano-dev/microservices-go-common/services"
-	trace "github.com/oceano-dev/microservices-go-common/trace/otel"
 	trace_span "go.opentelemetry.io/otel/trace"
 )
 
